@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #000;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+
+}
+
+.menu {}
+
+.menu ul {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-bottom: 1px solid white;
+}
+
+
+
+.main_Container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.left_Side_Data {
+    flex-basis: 80%;
+}
+
+.right_Side_Data {
+    border-left: 2px solid red;
+    flex-basis: 20%;
+    height: 900px;
+    background: #d2d2d2;
+    padding: 25px;
+}
+
+.right_Side_Data h2{
+    margin: 15px 0px;
+}
+
+
+.first_Row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.firstRowBox {
+    border: 1px solid green;
+    height: 300px;
+    flex-basis: 30%;
+    display: flex;
+
+}
+
+
+.firstRowBox h3 {
+    background: red;
+    color: white;
+    padding: 25px 3px;
+}
+
+
+.fstRowItem1 {
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.fstRowItem2 {
+    justify-content: center;
+    align-items: center;
+}
+
+.fstRowItem3 {
+    justify-content: end;
+    align-items: flex-end;
+}
+
+
+
+.second_Row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 22px;
+    
+}
+
+.secondRowBox {
+    border: 1px solid green;
+    height: 200px;
+    flex: 1 0 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.secondRowItem2{
+    flex-grow: 2;
+   
+}
+
+.secondRowBox p{
+  flex-basis: 80%;
+  height: 111px;
+   
+}
+
+
+
+.third_Row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.thirdRowBox{
+    border: 1px solid green;
+    height: 250px;
+    flex-basis: 30%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px 0px;
+}
+
+
+.thirdRowBox h3{
+    background: red;
+    font-size: 16px;
+    color: white;
+    padding: 15px 11px;
+    border: 1px solid green;
+}
+
+.thirdRowItem1{
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.thirdRowItem2{
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 40px 30px;
+}
+
+.thirdRowItem3{
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 40px 30px;
+}
+
+
+.thirdRowItem3 h3:nth-child(2){
+    align-self: center;
+}
+
+.thirdRowItem3 h3:nth-child(3){
+    align-self: end;
+}
+
+footer {
+    background: #000;
+    color: white;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+footer ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 6px 8px;
+    border-bottom: 1px solid white;
+}
